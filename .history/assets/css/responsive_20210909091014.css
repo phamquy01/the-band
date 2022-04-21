@@ -1,0 +1,66 @@
+/* PC */
+@media (min-width: 64em) {
+  .menu-btn {
+    display: none;
+  }
+  .anh1 {
+    margin-top: 15px;
+    width: 154px;
+  }
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .menu-btn {
+    display: none;
+  }
+  .anh1 {
+    margin-top: 15px;
+    width: 154px;
+  }
+  .team-list {
+    justify-content: space-between;
+  }
+  .team-list img {
+    margin: 0 auto;
+  }
+}
+
+/* mobile */
+@media (max-width: 46.1875em) {
+  #header {
+    overflow: hidden;
+  }
+  .nav > li {
+    display: block;
+  }
+  .search-btn {
+    display: none;
+  }
+  .menu-btn:hover {
+    background-color: white;
+    overflow: visible;
+  }
+  .menu-icon:hover {
+    color: black;
+  }
+  .row-third {
+    display: block;
+  }
+  .anh1 {
+    margin-top: 15px;
+  }
+  .tour-member {
+    padding: 15px 0px;
+  }
+  .col-half {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .form1 {
+    width: 100%;
+  }
+  .container1 {
+    display: inline-block;
+  }
+}

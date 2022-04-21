@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+    <div id="toast">
+        <div class="toast toast__success">
+            <div class="toast__icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__heading">Success</h3>
+                <p class="toast__text8">Anyone with access can view your invited visitors</p>
+            </div>
+            <div class="toast__close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="btn btn--success">GO TO NEXT APPROVAL</button>
+        <button class="btn btn--error">TRY AGAIN</button>
+    </div>
+    <script>
+        function toast({
+            title='', 
+            messages= '', 
+            type = 'info', 
+            duration = 3000
+        }){
+            const main = document.getElementById('toast');
+            if(main){
+                const toast = document.createElement('div');
+                toast. classList.add('toast');
+                 toast.innerHTML = 
+            }
+        }
+        toast({
+            title : 'success',
+            messages:'Anyone with access can view your invited visitors',
+            type :'succsess',
+            duration: 3000
+        });
+    </script>
+</body>
+</html>
