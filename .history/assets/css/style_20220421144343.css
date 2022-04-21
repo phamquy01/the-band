@@ -122,19 +122,11 @@ html {
   object-fit: cover;
 }
 .text-heading {
-  position: absolute;
-  bottom: 0;
   margin: 25px 0;
   font-size: 24px;
   font-weight: 400;
-  margin: 92px 0;
-  width: 100%;
 }
 .text-description {
-  position: absolute;
-  bottom: 0;
-  margin: 47px 0;
-  width: 100%;
   font-size: 15px;
   font-weight: bolder;
   text-shadow: 0 0 1px white;
